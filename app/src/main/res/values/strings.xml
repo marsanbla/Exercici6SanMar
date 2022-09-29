@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Exercici6SanMar</string>
+    <string name="app_name">Exercici 6</string>
+    <string name="aplicaci">Aplicació</string>
+    <string name="exercici6">Exercici6</string>
 </resources>
