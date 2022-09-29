@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/Cabecera"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <TextView
@@ -12,5 +12,52 @@
         android:text="@string/aplicaci"
         android:textAlignment="center"
         android:textSize="34sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center">
+
+        <TableRow
+            android:layout_width="335dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp">
+
+            <Button
+                android:id="@+id/Jugbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JUGAR" />
+
+            <Button
+                android:id="@+id/Confbtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="200dp"
+                android:text="CONFIGURAR" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp">
+
+            <Button
+                android:id="@+id/Abtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACERCA DE" />
+
+            <Button
+                android:id="@+id/exitbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="200dp"
+                android:text="Exit" />
+        </TableRow>
+
+    </TableLayout>
 
 </LinearLayout>
