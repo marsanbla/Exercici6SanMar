@@ -13,4 +13,10 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Test" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#009688</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColorLink">#611919</item>
+    </style>
 </resources>
