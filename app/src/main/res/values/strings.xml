@@ -2,4 +2,8 @@
     <string name="app_name">Exercici 6</string>
     <string name="aplicaci">Aplicació</string>
     <string name="exercici6">Exercici6</string>
+    <string name="exit">Exit</string>
+    <string name="configurar">CONFIGURAR</string>
+    <string name="jugar">JUGAR</string>
+    <string name="acerca_de">ACERCA DE</string>
 </resources>

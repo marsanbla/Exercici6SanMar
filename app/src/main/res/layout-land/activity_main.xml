@@ -28,14 +28,14 @@
                 android:id="@+id/Jugbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="JUGAR" />
+                android:text="@string/jugar" />
 
             <Button
                 android:id="@+id/Confbtn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginRight="200dp"
-                android:text="CONFIGURAR" />
+                android:layout_marginEnd="200dp"
+                android:text="@string/configurar" />
         </TableRow>
 
         <TableRow
@@ -48,14 +48,14 @@
                 android:id="@+id/Abtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ACERCA DE" />
+                android:text="@string/acerca_de" />
 
             <Button
                 android:id="@+id/exitbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="200dp"
-                android:text="Exit" />
+                android:layout_marginEnd="200dp"
+                android:text="@string/exit" />
         </TableRow>
 
     </TableLayout>
