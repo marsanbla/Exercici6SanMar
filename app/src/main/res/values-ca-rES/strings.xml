@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exercici 6</string>
+    <string name="aplicaci">Aplicació </string>
+    <string name="exercici6">Exercici 6</string>
+    <string name="exit">Sortida</string>
+    <string name="configurar">Configuració</string>
+    <string name="jugar">Jugar</string>
+    <string name="acerca_de">Sobre nosaltres </string>
+
+
+</resources>
