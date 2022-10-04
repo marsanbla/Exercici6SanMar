@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="my_value">16dp</dimen>
+    <dimen name="ample">200dp</dimen>
+    <dimen name="alçada">200dp</dimen>
+    <dimen name="ampladaboto">200dp</dimen>
+    <dimen name="alçadaboto">50dp</dimen>
+</resources>

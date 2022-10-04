@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-
+        style="@style/Theme.Exercici6SanMar.titols"
         android:id="@+id/textView"
         android:layout_width="236dp"
         android:layout_height="59dp"
@@ -23,9 +23,9 @@
 
 
     <Button
+        style="@style/Theme.Exercici6SanMar.buttons"
         android:id="@+id/button"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+
         android:layout_marginStart="104dp"
         android:layout_marginBottom="44dp"
         android:text="JUGAR"
@@ -34,9 +34,9 @@
         tools:ignore="MissingConstraints" />
 
     <Button
+        style="@style/Theme.Exercici6SanMar.buttons"
         android:id="@+id/button2"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+
         android:layout_marginStart="104dp"
         android:layout_marginBottom="40dp"
         android:text="CONFIGURAR"
@@ -45,9 +45,9 @@
         tools:ignore="MissingConstraints" />
 
     <Button
+        style="@style/Theme.Exercici6SanMar.buttons"
         android:id="@+id/button3"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+
         android:layout_marginStart="104dp"
         android:layout_marginBottom="16dp"
         android:text="ACERCA DE"
@@ -56,9 +56,9 @@
         tools:ignore="MissingConstraints" />
 
     <Button
+        style="@style/Theme.Exercici6SanMar.buttons"
         android:id="@+id/button4"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+
         android:layout_marginStart="104dp"
         android:text="SALIR"
         app:layout_constraintStart_toStartOf="parent"
